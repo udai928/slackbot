@@ -1,0 +1,3 @@
+slackbot
+pyyaml
+mysqlclient
