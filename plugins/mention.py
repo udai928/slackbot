@@ -1,6 +1,7 @@
 from slackbot.bot import respond_to
 from slackbot.bot import default_reply
 import os
+import db.mysql_client as mc
 
 # respond_to
 # botに向けた投稿で引数の文字列が含まれる時に反応する
@@ -17,6 +18,9 @@ def default_reply(message):
 
 @respond_to('こんにちは')
 def reply_hello(message):
+    client = mc.MySQLClient()
+    records = client.find("test")
+    print(records)
     message.reply("こんにちは!!!!")
 
 
