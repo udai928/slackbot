@@ -1,0 +1,13 @@
+bot_api_token : "xxx-000000000000-xxxxxxxxxxxxxxxxxxxx"
+
+db:
+  user: ''
+  password: ''
+  host: ''
+  database: ''
+
+token: "xxx-000000000000-xxxxxxxxxxxxxxxxxxxx"
+icon: "http://xxxx"
+hookurl: "https://hooks.slack.com/xxxx"
+
+log_path: "/path/to/log"
